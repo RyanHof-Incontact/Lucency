@@ -1,0 +1,37 @@
+<DOCTYPE! HTML>
+<header>
+</header>
+<body>
+  <center>
+  <a href="page2.html">
+    <img src="https://live.staticflickr.com/65535/49895842401_32f68b5fc8_k.jpg" width="1902" height="1800" />
+</center>
+</body>
+
+<footer>
+<!-- START Surfly SCRIPT -->
+<script>
+(function(s,u,r,f,l,y){s[f]=s[f]||{init:function(){s[f].q=arguments}};
+l=u.createElement(r);y=u.getElementsByTagName(r)[0];l.async=1;
+l.src='https://surfly-us.com/surfly.js';y.parentNode.insertBefore(l,y);})
+(window,document,'script','Surfly');
+
+var settings = {
+// Surfly session options can be set here, or at the Company/Plan levels.
+widget_key:'f0de30d80ea04a40894c023e4ba05afd',
+};
+
+Surfly.init(settings, function(initResult) {
+    if (initResult.success) {
+        // API calls can now be made!
+        if (!Surfly.isInsideSession) {
+            Surfly.button();
+        }
+    }
+    else{
+        console.log("Surfly was unable to initialize properly.")
+    }
+});
+</script>
+
+</footer>
