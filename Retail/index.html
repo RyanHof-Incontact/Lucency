@@ -1,9 +1,33 @@
 <DOCTYPE! HTML>
-<header>
-</header>
+<head>
+  <style>
+    #background-img
+     {
+       position: fixed
+       width: 100%;
+       height: 100%;
+       background-image: url('https://live.staticflickr.com/65535/50147944123_a8af74c5fd_h.jpg');
+       background-size: cover;
+       border: 1px solid red;
+    }
+    #furniture-button {
+      position: fixed;
+      bottom: 35%;
+      left: 16.5%;
+      padding-top: 10px;
+      padding-left: 7px;
+      padding-right: 15px;
+      align-items: center;
+      justify-content: center;
+    }
+    </style>
+  </head>
 <body>
-  <center>
-  <a href="page2.html">
-    <img src="https://live.staticflickr.com/65535/50147944123_a8af74c5fd_h.jpg" width="1600" height="805" 
-</center>
+  <div id="background-img">
+    </div>
+  <div id="furniture-button" onclick="location.href='page2.html';">
+    <button>Furniture</button>
+    </div>
 </body>
+
+<!-- https://live.staticflickr.com/65535/50147944123_a8af74c5fd_h.jpg -->
