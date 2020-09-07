@@ -20,12 +20,12 @@
 
 .container .btn {
   position: absolute;
-  top: 44%;
-  left: 39%;
+  top: 37%;
+  left: 34%;
   background-color: #0066CC;
   color: white;
-  font-size: 20px;
-  padding: 25px 135px;
+  font-size: 16px;
+  padding: 12px 35px;
   border: none;
   cursor: pointer;
   border-radius: 5px;
@@ -36,24 +36,21 @@
   background-color: black;
 }
 
-.input-container {
+.container .btn-back{
   position: absolute;
-  top: 35%;
-  left: 40%;
-
-}
-.input-container:hover{
-  background-color: black;
-}
-
-.Doctor-Search{
-  position: absolute;
-  width: 400px;
-  top: 27%;
-  left: 40%;
+  top: 37%;
+  right: 25%;
+  background-color: #0066CC;
+  color: white;
+  font-size: 14px;
+  padding: 10px 25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
 
-.Doctor-Search:hover{
+.container .btn:hover {
   background-color: black;
 }
 
@@ -62,17 +59,14 @@
 <body>
 
 <div class="container">
-  <img src="https://live.staticflickr.com/65535/50316637327_0257c85fd3_b.jpg" style="width:100%">
-  <button class="btn" onclick="location.href='page1.html';">Search for doctors </button>
-  <form class="input-container">
-    <input class="form-control" type="text" placeholder="Zip Code or City, State" id="Zip-Code-City-State">
-  </form>
-  <form class="Doctor-Search">
-    <input class="form-control form-control-lg" type="text" placeholder="Search doctors, conditions, or procedures" id="Doctor-Conditions-Procedures">
-  </form>
+  <img src="https://live.staticflickr.com/65535/50316457271_f9bcc7818d_b.jpg" style="width:100%">
+  <button class="btn" onclick="location.href='doctor1-booking.html';">Book Appointment</button>
+  <button class="btn-back" onclick="location.href='page1.html';"> Back to Doctors</button>
+
 </div>
 
 </body>
 </html>
 
-<!-- https://live.staticflickr.com/65535/50316442457_4e62e286bb_b.jpg -->
+
+<!-- https://live.staticflickr.com/65535/50316457271_f9bcc7818d_b.jpg -->
