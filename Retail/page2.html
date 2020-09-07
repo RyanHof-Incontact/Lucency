@@ -1,9 +1,44 @@
-<DOCTYPE! HTML>
-<header>
-</header>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .btn {
+  position: absolute;
+  top: 62%;
+  left: 22.5%;
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+</style>
+</head>
 <body>
-  <center>
-  <a href="page3.html">
-    <img src="https://live.staticflickr.com/65535/50147944388_ea412d2160_h.jpg" width="1600" height="787" />
-</center>
+
+<div class="container">
+  <img src="https://live.staticflickr.com/65535/50147944388_ea412d2160_h.jpg" style="width:100%">
+  <button class="btn" onclick="location.href='page3.html';">Sofas</button>
+</div>
+
 </body>
+</html>
